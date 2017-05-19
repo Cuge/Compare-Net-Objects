@@ -19,7 +19,7 @@ namespace KellermanSoftware.CompareNetObjectsTests
         /// <summary>
         /// Code that is run once for a suite of tests
         /// </summary>
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void TestFixtureSetup()
         {
 
@@ -28,7 +28,7 @@ namespace KellermanSoftware.CompareNetObjectsTests
         /// <summary>
         /// Code that is run once after a suite of tests has finished executing
         /// </summary>
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void TestFixtureTearDown()
         {
 
@@ -232,7 +232,8 @@ namespace KellermanSoftware.CompareNetObjectsTests
         public void CompareInterfaceMembers()
         {
             ComparisonConfig config = new ComparisonConfig();
-            config.InterfaceMembers.Add(typeof(IName));
+            config.MembersToIgnore.Add("DateCreated");
+            //config.InterfaceMembers.Add(typeof(IName));
 
             _compare = new CompareLogic(config);
 
@@ -241,7 +242,7 @@ namespace KellermanSoftware.CompareNetObjectsTests
             person1.DateCreated = DateTime.Now;
 
             Person person2 = new Person();
-            person2.Name = "Greg";
+            person2.Name = "Greg1";
             person2.DateCreated = DateTime.Now.AddDays(-1);
 
             var result = _compare.Compare(person1, person2);

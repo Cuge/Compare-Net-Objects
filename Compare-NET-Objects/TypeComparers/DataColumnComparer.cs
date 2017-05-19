@@ -19,6 +19,12 @@ namespace KellermanSoftware.CompareNetObjects.TypeComparers
         {
         }
 
+        /// <summary>
+        /// Compare type 
+        /// </summary>
+        /// <param name="type1"></param>
+        /// <param name="type2"></param>
+        /// <returns></returns>
         public override bool IsTypeMatch(Type type1, Type type2)
         {
             return TypeHelper.IsDataColumn(type1) && TypeHelper.IsDataColumn(type2);
@@ -57,15 +63,16 @@ namespace KellermanSoftware.CompareNetObjects.TypeComparers
 
             string currentBreadCrumb = AddBreadCrumb(parms.Config, parms.BreadCrumb, propName);
 
-            CompareParms childParms = new CompareParms();
-            childParms.Result = parms.Result;
-            childParms.Config = parms.Config;
-            childParms.BreadCrumb = currentBreadCrumb;
-            childParms.ParentObject1 = col1;
-            childParms.ParentObject2 = col2;
-            childParms.Object1 = prop1;
-            childParms.Object2 = prop2;
-
+            CompareParms childParms = new CompareParms()
+            {
+                Result = parms.Result,
+                Config = parms.Config,
+                BreadCrumb = currentBreadCrumb,
+                ParentObject1 = col1,
+                ParentObject2 = col2,
+                Object1 = prop1,
+                Object2 = prop2
+            };
             RootComparer.Compare(childParms);
         }
     }

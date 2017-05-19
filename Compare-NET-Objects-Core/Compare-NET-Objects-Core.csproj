@@ -38,11 +38,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="IgnoreOrderTypes\" />
-    <Folder Include="TypeComparers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="..\Compare-NET-Objects\Cache.cs" Link="Cache.cs" />
     <Compile Update="..\Compare-NET-Objects\CompareLogic.cs" Link="CompareLogic.cs" />
     <Compile Update="..\Compare-NET-Objects\CompareObjects.cs" Link="CompareObjects.cs" />

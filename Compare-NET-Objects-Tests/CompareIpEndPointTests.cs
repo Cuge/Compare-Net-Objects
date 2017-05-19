@@ -17,7 +17,7 @@ namespace KellermanSoftware.CompareNetObjectsTests
         /// <summary>
         /// Code that is run once for a suite of tests
         /// </summary>
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void TestFixtureSetup()
         {
 
@@ -26,7 +26,7 @@ namespace KellermanSoftware.CompareNetObjectsTests
         /// <summary>
         /// Code that is run once after a suite of tests has finished executing
         /// </summary>
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void TestFixtureTearDown()
         {
 

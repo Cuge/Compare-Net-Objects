@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Compare-NET-Objects-Core</id>
+    <version>3.8.0</version>
+    <authors>GregFinzer</authors>
+    <owners>GregFinzer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/GregFinzer/Compare-Net-Objects/wiki/Licensing</licenseUrl>
+    <projectUrl>https://github.com/GregFinzer/Compare-Net-Objects</projectUrl>
+    <description>Easily compare objects in .NET</description>
+    <copyright>Copyright © 2017</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="NETStandard.Library" version="1.6.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\bin\release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.dll" target="lib\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.dll" />
+    <file src="E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\bin\release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.xml" target="lib\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.xml" />
+  </files>
+</package>

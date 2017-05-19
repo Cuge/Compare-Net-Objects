@@ -1,0 +1,8 @@
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\bin\Release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.deps.json
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\bin\Release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.xml
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\bin\Release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.dll
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\bin\Release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.pdb
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\obj\Release\netstandard1.6\Compare-NET-Objects-Core.csprojResolveAssemblyReference.cache
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\obj\Release\netstandard1.6\Compare-NET-Objects-Core.AssemblyInfo.cs
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\obj\Release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.dll
+E:\GitHub\Compare-Net-Objects\Compare-NET-Objects-Core\obj\Release\netstandard1.6\KellermanSoftware.Compare-NET-Objects-Core.pdb
