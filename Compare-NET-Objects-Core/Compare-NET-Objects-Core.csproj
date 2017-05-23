@@ -9,8 +9,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>KellermanSoftware.Compare-NET-Objects-Core</AssemblyName>
     <PackageId>Compare-NET-Objects-Core</PackageId>
-    <PackageProjectUrl>https://github.com/GregFinzer/Compare-Net-Objects</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/GregFinzer/Compare-Net-Objects/wiki/Licensing</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Cuge/Compare-Net-Objects</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Cuge/Compare-Net-Objects/wiki</PackageLicenseUrl>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
